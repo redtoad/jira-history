@@ -12,7 +12,7 @@ setup(
     description='Makes working with Jira issue changelogs a breeze!',
     long_description=read('README.rst'),
     url='https://github.com/redtoad/jira-history',
-    version='0.8',
+    version='0.8.1',
     author='Sebastian Rahlf',
     author_email='basti@redtoad.de',
     packages=['jira_history'],
