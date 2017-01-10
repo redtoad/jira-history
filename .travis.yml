@@ -8,5 +8,5 @@ python:
   - "nightly" # currently points to 3.7-dev
 install:
   - pip install .
-  - pip install jira_cache
+  - pip install jira-cache
 script: pytest
