@@ -9,7 +9,7 @@ Quickstart
 
 ::
 
-    >>> issue = jira.issue('JIRA-2204')
+    >>> issue = jira.issue('JIRA-2204', expand='changelog')
     >>> add_history(issue)
     >>> issue.history
     <Changelog 3 entries>
